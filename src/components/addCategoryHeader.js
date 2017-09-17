@@ -11,9 +11,7 @@ const redirect = (history, to) => {
 const AddCategoryHeader = withRouter(props => (
   <Menu>
 
-    
-
-    <Menu.Item
+     <Menu.Item
       name="Locations"
       onClick={() => {
         redirect(props.history, "/");
