@@ -30,8 +30,7 @@ class EditCategory extends Component {
 
   componentWillMount() {
     this.props.fetchLocalstorage();
-    if (Object.keys(this.props.categories).length === 0) {
-    }
+  
   }
 
   componentDidMount() {
@@ -44,7 +43,7 @@ class EditCategory extends Component {
     } else {
     }
 
-    window.state = this.state;
+   // window.state = this.state;
   }
 
   onFormSubmit = data => {
