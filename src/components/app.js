@@ -5,7 +5,7 @@ import Header from "./header";
 
 export default class App extends Component {
   componentDidMount() {
-    console.log("I was triggered during componentDidMount");
+    
   }
   render() {
     return (
