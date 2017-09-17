@@ -13,8 +13,7 @@ import { fetchLocalstorage } from "../actions/fetchLocalstorage";
 
 import EditCategoryHeader from "./editCategoryHeader";
 
-// wtf is thsi???
-//let nameInput;
+
 
 class EditCategory extends Component {
   state = { name: "" };
