@@ -16,9 +16,6 @@ let locationInput;
 
 const AddLocation = props => {
   const onFormSubmit = data => {
-    console.log("DATA_FROM_FORM", data);
-    console.log("DISPATCHHISTORYY", props.history);
-    console.log(" addLocation", addLocation);
     const historyProp = props.history;
     const categoryId = props.match.params.categoryId;
     props.addLocation(data, historyProp, categoryId);
