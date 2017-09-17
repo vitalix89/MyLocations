@@ -1,5 +1,5 @@
 export const fetchLocalstorage = () => dispatch => {
-  console.log("fetchLocalstorage");
+
 
   const retrievedObject = localStorage.getItem("testObject");
 
