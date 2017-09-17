@@ -88,7 +88,7 @@ class EditLocation extends Component {
      */
     event.preventDefault();
 
-    //  console.log(" formData formData", addressInput.val);
+ 
 
     /**
      * Cancel form submittion is one of the form fields is empty.
