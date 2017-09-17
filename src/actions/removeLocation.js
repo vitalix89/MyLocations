@@ -10,7 +10,7 @@ export const removeLocation = (categoryId, locationId, data, history) =>
 
     let newItems = JSON.parse(localStorage.getItem("testObject"));
 
-    console.log("FETCH AFTER REMOVVVEEEEEE", newItems);
+   
 
     if (Object.keys(newItems[categoryId].locations).length === 0) {
       dispatch({ type: "REMOVE_LOCATION", payload: {} });
