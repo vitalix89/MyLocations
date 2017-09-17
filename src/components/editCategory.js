@@ -104,7 +104,7 @@ class EditCategory extends Component {
                   value={this.state.name}
                   onChange={this.onChangeName}
                   //placeholder={this.state.name}
-                  //  ref={el => nameInput = el} // wtf ref?
+                  //  ref={el => nameInput = el} 
                 />
 
               </Form.Field>
