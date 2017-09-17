@@ -1,7 +1,7 @@
 import React, { PropTypes } from "react";
 import { List, Image, Rating, Menu, Button, Icon } from "semantic-ui-react";
 
-import { connect } from "react-redux"; // we can import assitant from dashboard??
+import { connect } from "react-redux"; 
 
 import { withRouter } from "react-router-dom";
 
