@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import { connect } from "react-redux"; // we can import assitant from dashboard??
+import { connect } from "react-redux"; 
 
 import { withRouter } from "react-router-dom";
 
