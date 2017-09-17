@@ -11,7 +11,7 @@ const redirect = (history, to) => {
 const AddLocationHeader = withRouter(props => (
   <Menu>
 
-    {console.log("HISTOY????", props)}
+    
 
     <Menu.Item
       name="Locations"
