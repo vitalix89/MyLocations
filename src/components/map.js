@@ -21,7 +21,7 @@ const GettingStartedGoogleMap = withGoogleMap(props => (
     options={{ streetViewControl: false, mapTypeControl: false }}
   >
     <Marker position={{ lat: props.coords.lat, lng: props.coords.lng }} />
-    {console.log("MAAAAPPP PROP", props)}
+  
     <OverlayView
       style={{ backgroundColor: "#fff" }}
       position={new GoogleMapsAPI.LatLng(32.109333, 34.855499)}
@@ -35,7 +35,7 @@ const GettingStartedGoogleMap = withGoogleMap(props => (
 class Map extends Component {
   componentWillMount() {}
   loaded() {
-    console.log("loaded");
+   
   }
   render() {
     const mapContainer = <div style={{ height: "100%", width: "100%" }} />;
