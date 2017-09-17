@@ -6,7 +6,7 @@ export const addCategory = (data, history) => dispatch => {
     name: data.name
   };
 
-  console.log("action addCategory called", data);
+
   dispatch({ type: "ADD_CATEGORY", payload: locationData });
   history.push("./");
 };
